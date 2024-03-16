@@ -15,4 +15,4 @@ COPY . /app
 WORKDIR /app
 
 # 指定容器启动时执行的命令
-CMD ["python3", "app.py"]
+CMD ["sh", "startup.sh"]
