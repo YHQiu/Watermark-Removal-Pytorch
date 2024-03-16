@@ -1,5 +1,5 @@
 # 使用带有CUDA 11.1支持的Ubuntu 20.04镜像作为基础镜像
-FROM pytorch/pytorch:1.11.0-cuda11.8-cudnn8-runtime
+FROM pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime
 
 # 安装您的应用程序需要的其他依赖项
 RUN apt-get update && apt-get install -y \
